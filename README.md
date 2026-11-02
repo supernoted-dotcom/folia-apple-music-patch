@@ -40,6 +40,8 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Action in
 
 Release 安装包中的 `完整源代码.zip` 包含对应的修改后 Folia 0.7.25 源码；其中 `electron/apple/host/` 为 Windows WebView2 播放宿主。`installer/` 是安装器脚本和组件清单，其二进制负载在 Release 安装包中。安装包同时附带对应的许可文本。构建需要 Node.js 24、项目依赖、.NET 9 和 WebView2 SDK；此仓库目前没有一键生成发行包的构建流程。
 
+也可单独下载 [完整源码压缩包](https://github.com/supernoted-dotcom/folia-apple-music-patch/releases/download/v0.7.25-apple.1/Folia-AppleMusic-0.7.25-source.zip)，SHA-256：`4C5B52E902170E3B609C9AFD370C6B4E707931152F197EF6E2C8E0B11C17E475`。
+
 ---
 
 Unofficial experimental Apple Music integration for the verified Windows build of Folia 0.7.25. Install the original Folia release first, download the patch ZIP from Releases, run the compatibility check and installer, then choose **Apple Music** from Folia's online platform connection dialog. Playback availability and audio-analysis features differ by account and source; see the limitations above.
